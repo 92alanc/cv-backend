@@ -2,23 +2,21 @@ package com.alancamargo.cvbackend.model;
 
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class ContactInfo {
 
     private final String fullName;
-    private final Address address;
     private final String phone;
     private final String email;
     private final List<String> links;
 
     public ContactInfo(
             String fullName,
-            Address address,
             String phone,
             String email,
             List<String> links
     ) {
         this.fullName = fullName;
-        this.address = address;
         this.phone = phone;
         this.email = email;
         this.links = links;
@@ -26,10 +24,6 @@ public class ContactInfo {
 
     public String getFullName() {
         return fullName;
-    }
-
-    public Address getAddress() {
-        return address;
     }
 
     public String getPhone() {
