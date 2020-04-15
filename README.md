@@ -7,7 +7,7 @@ Alan Camargo
 Kotlin
 
 ## Standard libraries
-- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring Framework](https://spring.io/)
 
 ## Testing libraries
 - [JUnit](https://junit.org/junit5/)
