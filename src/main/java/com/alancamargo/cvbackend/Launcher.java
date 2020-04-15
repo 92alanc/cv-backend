@@ -1,13 +1,13 @@
 package com.alancamargo.cvbackend;
 
-import com.alancamargo.cvbackend.di.Config;
-import org.springframework.context.annotation.Import;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@Import(Config.class)
+@SpringBootApplication
 public class Launcher {
 
     public static void main(String[] args) {
-        // TODO: launch
+        SpringApplication.run(Launcher.class, args);
     }
 
 }
