@@ -6,4 +6,6 @@ public interface ContactInfoService {
 
     ContactInfo getContactInfo();
 
+    void updateContactInfo(ContactInfo contactInfo);
+
 }

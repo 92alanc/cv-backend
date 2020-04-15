@@ -22,4 +22,9 @@ public class ContactInfoServiceImpl implements ContactInfoService {
         );
     }
 
+    @Override
+    public void updateContactInfo(ContactInfo contactInfo) {
+        // TODO: update database
+    }
+
 }
