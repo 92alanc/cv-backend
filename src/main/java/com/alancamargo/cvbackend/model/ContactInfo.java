@@ -5,10 +5,12 @@ import java.util.List;
 @SuppressWarnings("unused")
 public class ContactInfo {
 
-    private final String fullName;
-    private final String phone;
-    private final String email;
-    private final List<String> links;
+    private String fullName;
+    private String phone;
+    private String email;
+    private List<String> links;
+
+    public ContactInfo() { }
 
     public ContactInfo(
             String fullName,
