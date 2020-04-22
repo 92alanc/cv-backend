@@ -2,6 +2,7 @@ package com.alancamargo.cvbackend.model;
 
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class Job {
 
     private long id;

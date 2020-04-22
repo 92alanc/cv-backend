@@ -1,5 +1,6 @@
 package com.alancamargo.cvbackend.model;
 
+@SuppressWarnings("unused")
 public class Period {
 
     private int startMonth;
