@@ -2,18 +2,18 @@ package com.alancamargo.cvbackend.model;
 
 public class Period {
 
-    private String startMonth;
-    private String startYear;
-    private String endMonth;
-    private String endYear;
+    private int startMonth;
+    private int startYear;
+    private Integer endMonth;
+    private Integer endYear;
 
     public Period() { }
 
     public Period(
-            String startMonth,
-            String startYear,
-            String endMonth,
-            String endYear
+            int startMonth,
+            int startYear,
+            Integer endMonth,
+            Integer endYear
     ) {
         this.startMonth = startMonth;
         this.startYear = startYear;
@@ -21,19 +21,19 @@ public class Period {
         this.endYear = endYear;
     }
 
-    public String getStartMonth() {
+    public int getStartMonth() {
         return startMonth;
     }
 
-    public String getStartYear() {
+    public int getStartYear() {
         return startYear;
     }
 
-    public String getEndMonth() {
+    public Integer getEndMonth() {
         return endMonth;
     }
 
-    public String getEndYear() {
+    public Integer getEndYear() {
         return endYear;
     }
 
