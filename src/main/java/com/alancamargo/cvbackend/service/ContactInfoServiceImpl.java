@@ -11,13 +11,13 @@ public class ContactInfoServiceImpl implements ContactInfoService {
     public ContactInfo getContactInfo() {
         // TODO: read from database
         List<String> links = new ArrayList<>();
-        links.add("https://www.github.com/alancamargo92");
+        links.add("https://www.github.com/92alanc");
         links.add("https://www.linkedin.com/in/92alanc");
 
         return new ContactInfo(
                 "Alan Camargo",
-                "07394 849457",
-                "92alanc@protonmail.com",
+                "07423 403093",
+                "alan.uk.br@gmail.com",
                 links
         );
     }
